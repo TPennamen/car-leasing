@@ -1,4 +1,5 @@
 /.idea
 /venv
+/__pycache__
 
 # Usually add .env but not here for exercise
