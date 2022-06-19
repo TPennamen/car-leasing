@@ -17,9 +17,13 @@ If you want to seed db to create realistic demo
 
 # Install for dev
 
-Run a
 ```
 > python -m virtualenv venv
 > source venv/bin/activate
 > pip install -r requirements.txt
+```
+
+Run tests
+```
+> python -m unittest tests
 ```
