@@ -1,0 +1,24 @@
+{
+  "customers": [
+    {
+      "email": "jean.dupont@gmail.com",
+      "firstname": "Jean",
+      "lastname": "Dupont"
+    },
+    {
+      "email": "sophie.dupont@gmail.com",
+      "firstname": "Sophie",
+      "lastname": "Dupont"
+    },
+    {
+      "email": "martine.legrand@gmail.com",
+      "firstname": "Martine",
+      "lastname": "Legrand"
+    },
+    {
+      "email": "thibault.lepetit@gmail.com",
+      "firstname": "Thibault",
+      "lastname": "Lepetit"
+    }
+  ]
+}

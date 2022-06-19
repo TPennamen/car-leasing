@@ -1,0 +1,4 @@
+/.idea
+/venv
+
+# Usually add .env but not here for exercise

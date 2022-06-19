@@ -1,0 +1,28 @@
+version: '3.5'
+services:
+  api:
+    build: .
+    command: python manage.py run -h 0.0.0.0
+    volumes:
+      - .:/usr/src/app/
+    ports:
+      - "5000:5000"
+    env_file:
+      - ./.env
+    depends_on:
+      - database
+
+  database:
+    container_name: car_leasing_postgres
+    image: postgres:latest
+    environment:
+      - POSTGRES_USER=car_leasing_db_user
+      - POSTGRES_PASSWORD=car_leasing_db_password
+      - POSTGRES_DB=car_leasing_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_volume:/var/lib/postgresql
+
+volumes:
+  db_volume:

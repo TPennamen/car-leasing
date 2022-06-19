@@ -1,0 +1,54 @@
+{
+  "cars": [
+    {
+      "brand": "Porsche",
+      "model": "911",
+      "price_per_hour": 150
+    },
+    {
+      "brand": "Peugeot",
+      "model": "307",
+      "price_per_hour": 40
+    },
+    {
+      "brand": "Renault",
+      "model": "Twingo",
+      "price_per_hour": 30
+    },
+    {
+      "brand": "Renault",
+      "model": "Scenic",
+      "price_per_hour": 60
+    },
+    {
+      "brand": "Tesla",
+      "model": "X",
+      "price_per_hour": 120
+    },
+    {
+      "brand": "Citroën",
+      "model": "C3",
+      "price_per_hour": 35
+    },
+    {
+      "brand": "Renault",
+      "model": "Traffic",
+      "price_per_hour": 90
+    },
+    {
+      "brand": "Alpha Roméo",
+      "model": "Giulietta",
+      "price_per_hour": 100
+    },
+    {
+      "brand": "Fiat",
+      "model": "Multipla",
+      "price_per_hour": 120
+    },
+    {
+      "brand": "Mini",
+      "model": "Countryman",
+      "price_per_hour": 60
+    }
+  ]
+}
